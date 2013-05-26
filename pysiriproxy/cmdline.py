@@ -74,7 +74,7 @@ def ensureConfigFiles():
         call(["chown", "-R", userArg, configDir])
 
 
-if __name__ == '__main__':
+def main():
     # Ensure that the pysiriproxy configuration files exist in the
     # user's home directory
     ensureConfigFiles()
@@ -109,3 +109,6 @@ if __name__ == '__main__':
         iphone.connect(logger)
 
         reactor.run()
+
+if __name__ == '__main__':
+    main()
