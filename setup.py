@@ -20,32 +20,6 @@ from os import listdir
 from os.path import join, isfile
 from setuptools import setup
 
-
-# The list of external python modules that are required
-_REQUIRED_MODULES = ["CFPropertyList", "zlib"]
-
-
-def checkForModule(moduleName):
-    '''Check that the given Python module name is installed and accessible. If
-    it is not accessible, then exit
-
-    * moduleName -- The module name that must be installed
-
-    '''
-    try:
-        __import__(moduleName, globals(), locals(), [], -1)
-    except ImportError, e:
-        print >> stderr, e
-        print >> stderr, "Error: pysiriproxy requires module [%s]" % moduleName
-        print >> stderr, "Please install [%s] and try again!" % moduleName
-        exit(1)
-
-
-# Check for all the required modules
-for moduleName in _REQUIRED_MODULES:
-    checkForModule(moduleName)
-
-
 setup(name='pysiriproxy',
       version='0.0.8',
       description='Python implementation of SiriProxy.',
@@ -60,6 +34,7 @@ setup(name='pysiriproxy',
       install_requires=[
         "biplist>=0.5",
         "twisted==12.1.0",
+        "pyopenssl",
         "pyamp>=1.2",
         ],
       )
