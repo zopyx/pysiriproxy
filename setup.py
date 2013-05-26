@@ -20,7 +20,7 @@ from os import listdir
 from os.path import join, isfile
 from setuptools import setup
 
-setup(name='pysiriproxy',
+setup(name='zopyx.pysiriproxy',
       version='0.1.0',
       description='Python implementation of SiriProxy.',
       maintainer='Andreas Jung',
