@@ -21,7 +21,7 @@ from os.path import join, isfile
 from setuptools import setup
 
 setup(name='zopyx.pysiriproxy',
-      version='0.2.1',
+      version='0.2.2',
       description='Python implementation of SiriProxy.',
       maintainer='Andreas Jung',
       maintainer_email='andreas@andreas-jung.com',
