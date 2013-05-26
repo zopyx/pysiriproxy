@@ -1,12 +1,22 @@
+pysiriproxy
+===========
+
+About
+-----
+
+pysiriproxy is a port of [SiriProxy](https://github.com/plamoni/SiriProxy) (by
+@plamoni) from Ruby to Python developed.
+
+
 Installing pysiriproxy
-======================
+----------------------
 
 The following page contains step by step instructions for installing
 pysiriproxy on an Ubuntu system. These instructions have been tested on
 the following Ubuntu versions: 10.04, 11.10, and 12.04.
 
 Installing and configuring dnsmasq
-----------------------------------
+++++++++++++++++++++++++++++++++++
 
 In order to intercept the commands being sent from the iPhone to Apple’s
 server you must install a program called *dnsmasq* onto a machine that
@@ -53,7 +63,7 @@ address* <configuration.html#changingdnsmasqip-label>`_ to easily change
 the IP address used by dnsmasq.
 
 Current maintainer
-------------------
+++++++++++++++++++
 
 Andreas Jung <andreas@andreas-jung.com>
 
