@@ -21,8 +21,10 @@ from os.path import join, isfile
 from setuptools import setup
 
 setup(name='pysiriproxy',
-      version='0.0.8',
+      version='0.1.0',
       description='Python implementation of SiriProxy.',
+      maintainer='Andreas Jung',
+      maintainer_email='andreas@andreas-jung.com',
       author='Brett Ponsler',
       author_email='ponsler@gmail.com',
       url='https://code.google.com/p/pysiriproxy/',

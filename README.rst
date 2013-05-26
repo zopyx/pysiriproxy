@@ -52,3 +52,8 @@ instructions on `*changing the dnsmasq IP
 address* <configuration.html#changingdnsmasqip-label>`_ to easily change
 the IP address used by dnsmasq.
 
+Current maintainer
+------------------
+
+Andreas Jung <andreas@andreas-jung.com>
+
