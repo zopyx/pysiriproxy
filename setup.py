@@ -38,6 +38,7 @@ setup(name='zopyx.pysiriproxy',
         "twisted==12.1.0",
         "pyopenssl",
         "pyamp>=1.2",
+        "requests",
         ],
        entry_points="""
        [console_scripts]
